@@ -8,14 +8,12 @@ import android.graphics.Paint;
 import android.view.View;
 
 public class DrawView extends View{
-    int x, y;
+
     Bitmap bmp;
 
     public DrawView (Context context){
         super(context);
 
-        x = 100;
-        y = 100;
 
         bmp = BitmapFactory.decodeResource(getResources(), R.drawable.pomboteste);
     }
